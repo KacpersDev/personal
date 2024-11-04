@@ -2,20 +2,19 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  background-color: #1f1f1f;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+@font-face {
+  font-family: "poppins";
+  src: url("./fonts/poppins.ttf");
 }
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+@font-face {
+  font-family: "poppins_bold";
+  src: url("./fonts/poppins_bold.ttf");
 }
