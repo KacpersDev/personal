@@ -2,7 +2,7 @@ const Body = () => {
     return(
         <div className="grid justify-center text-white font-poppins mt-[100px]">
             <div>
-                <p className="text-[50px] font-poppins_bold max-[400px]:text-[35px] max-[400px]:text-center">Hi, I'm Kacper.</p>
+                <p className="text-[50px] font-poppins_bold max-[400px]:text-[35px] max-[400px]:text-center">Hi, I&apos;m Kacper.</p>
                 <p className="text-[23px] max-[400px]:text-[18px] max-[400px]:text-center">Self-Taugh Fullstack Developer.</p>
             </div>
             <div className="mt-[75px] mr-[10px] max-[400px]:ml-auto max-[400px]:mr-auto">
