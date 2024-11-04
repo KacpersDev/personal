@@ -11,7 +11,7 @@ const Body = () => {
                 <img className="mt-[10px] max-[400px]:ml-auto max-[400px]:mr-auto" src="https://skillicons.dev/icons?i=mysql,mongodb,redis,figma" onClick={() => location.href = 'https://skillicons.dev/'}/>
             </div>
             <div className="mt-[75px]">
-                <p className="text-[25px] font-poppins_bold max-[400px]:text-center">IDE's</p>
+                <p className="text-[25px] font-poppins_bold max-[400px]:text-center">IDE&apos;s</p>
                 <img className="max-[400px]:ml-auto max-[400px]:mr-auto mt-[15px]" src="https://skillicons.dev/icons?i=vscode" onClick={() => location.href = 'https://skillicons.dev/'}/>
             </div>
             <div className="mt-[75px]">
